@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 8px;
+}
+
+.logo, .icon {
+    height: 8vh;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px;
+}
+
+ul {
+    margin-right: 150px;
+}
+
+.bg1 {
+    background-color: #282A35;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.bg2 {
+    background-color: #D9EEE1;
+    padding: 70px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: white;
+    font-size: 4rem;
+    margin: 0;
+}
+
+button {
+    margin: 10px auto;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+}
+
+h3 {
+    color: #FFC0C7;
+}
+
+input {
+    width: 250px;
+    margin: auto;
+}
+
+a {
+    color: white;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+.bg2 button {
+    width: 175px;
+}
+
+.free, .video {
+    background-color: #FFF4A3;
+}
+
+.learn {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.ref {
+    background-color: #282A35;
+    color: white;
+}
+
+.cert {
+    background-color: #FFC0C7;
+}
